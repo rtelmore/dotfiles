@@ -9,10 +9,8 @@ function parse_hg_branch {
 
 if [ $HOSTNAME = "stc-24795s.local" ]; then
   export COMP_NAME="stc-24795S"
-  echo $COMP_NAME
 else
-  export COMP_NAME="bird($HOSTNAME)"
-  echo $COMP_NAME
+  export COMP_NAME="BIRD-$HOSTNAME"
 fi
 
 function proml {
