@@ -7,6 +7,14 @@ function parse_hg_branch {
   hg branch 2> /dev/null | sed -e 's/.*/(&)/'
 }
 
+if [ $HOSTNAME = "stc-24795s.local" ]; then
+  export COMP_NAME="stc-24795S"
+  echo $COMP_NAME
+else
+  export COMP_NAME="bird($HOSTNAME)"
+  echo $COMP_NAME
+fi
+
 function proml {
   local        BLUE="\[\033[0;34m\]"
   local         RED="\[\033[0;31m\]"
@@ -15,7 +23,6 @@ function proml {
   local LIGHT_GREEN="\[\033[1;32m\]"
   local       WHITE="\[\033[1;37m\]"
   local  LIGHT_GRAY="\[\033[0;37m\]"
-  local   COMP_NAME="stc-24795S"
   case $TERM in
     xterm*)
 	TITLEBAR='\[\033]0;\u@\h:\w\007\]'
