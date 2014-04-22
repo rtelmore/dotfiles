@@ -16,6 +16,7 @@ Bundle 'JuliaLang/julia-vim'
 Bundle 'vim-scripts/LaTeX-Suite-aka-Vim-LaTeX'
 
 let maplocalleader = ","
+let mapleader = ","
 
 set term=xterm-256color
 syntax on 
@@ -50,4 +51,7 @@ nmap <Space> <Plug>RDSendLine
 
 """ Special Mappings
 imap ;; <Esc>
+
+"""" Latex Stuff
+let g:Tex_ViewRule_pdf = 'open -a Preview'
 
