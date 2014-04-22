@@ -64,6 +64,7 @@ alias go2phi1='ssh relmore@phi1.hpc.nrel.gov'
 alias go2phi2='ssh relmore@phi2.hpc.nrel.gov'
 alias go2power-api='ssh -Y rtelmor@software.sandia.gov'
 alias go2peli='ssh relmore@pelican.hpc.nrel.gov'
+alias myq='showq -u relmore'
 
 export LSCOLORS="Dxfxcxdxbxegedabagacad"
 
