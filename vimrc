@@ -13,6 +13,7 @@ Bundle 'scrooloose/syntastic'
 Bundle 'tpope/vim-sensible'
 Bundle 'tpope/vim-fugitive'
 Bundle 'JuliaLang/julia-vim'
+Bundle 'vim-scripts/LaTeX-Suite-aka-Vim-LaTeX'
 
 let maplocalleader = ","
 
