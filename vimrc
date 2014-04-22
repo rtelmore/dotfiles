@@ -46,3 +46,7 @@ set shiftwidth=2
 inoremap jk <ESC>
 vmap <Space> <Plug>RESendSelection
 nmap <Space> <Plug>RDSendLine
+
+""" Special Mappings
+imap ;; <Esc>
+

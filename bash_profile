@@ -7,8 +7,8 @@ function parse_hg_branch {
   hg branch 2> /dev/null | sed -e 's/.*/(&)/'
 }
 
-if [ $HOSTNAME = "stc-24795s.local" ]; then
-  export COMP_NAME="stc-24795S"
+if [ ${HOSTNAME%%.*} = "stc-24795s" ]; then
+  export COMP_NAME="stc-24795s"
 else
   export COMP_NAME="BIRD-$HOSTNAME"
 fi
