@@ -25,10 +25,10 @@ set encoding=utf-8
 
 
 """" Searching and Patterns
-set ignorecase		" search is case insensitive
-set smartcase		" search case sensitive if caps on 
-set incsearch		" show best match so far
-set hlsearch		" Highlight matches to the search 
+"set ignorecase		" search is case insensitive
+"set smartcase		" search case sensitive if caps on 
+"set incsearch		" show best match so far
+"set hlsearch		" Highlight matches to the search 
 
 """" Display
 set scrolloff=3		" Keep 3 lines below and above the cursor
@@ -46,7 +46,7 @@ set shiftwidth=2
 ""let vimrplugin_term = "Terminal"
 
 inoremap jk <ESC>
-vmap <Space> <Plug>RESendSelection
+"vmap <Space> <Plug>RESendSelection
 nmap <Space> <Plug>RDSendLine
 
 """ Special Mappings
