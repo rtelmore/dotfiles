@@ -46,7 +46,7 @@ set shiftwidth=2
 ""let vimrplugin_term = "Terminal"
 
 inoremap jk <ESC>
-"vmap <Space> <Plug>RESendSelection
+vmap <Space> <Plug>RESendSelection
 nmap <Space> <Plug>RDSendLine
 
 """ Special Mappings
