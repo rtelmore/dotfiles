@@ -46,11 +46,11 @@ set shiftwidth=2
 ""let vimrplugin_term = "Terminal"
 
 inoremap jk <ESC>
-vmap <Space> <Plug>RESendSelection
-nmap <Space> <Plug>RDSendLine
+vmap <D-r> <Plug>RESendSelection
+nmap <D-r> <Plug>RDSendLine
 
 """ Special Mappings
-imap ;; <Esc>
+""" imap ;; <Esc>
 
 """" Latex Stuff
 let g:Tex_ViewRule_pdf = 'open -a Preview'
