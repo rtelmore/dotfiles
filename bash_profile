@@ -74,7 +74,7 @@ export SVN_EDITOR='vim'
 #export LD_LIBRARY_PATH=/usr/local/boost_1_44_0/stage/lib:$LD_LIBRARY_PATH
 #export DYLD_LIBRARY_PATH=/usr/local/cuda/lib:$DYLD_LIBRARY_PATH
 # MacPorts Installer addition on 2010-05-24_at_15:02:14: adding an appropriate PATH variable for use with MacPorts.
-export PATH=/Users/relmore/Side_Projects/julia/:/usr/local/cuda/bin:/Library/PostgreSQL/9.0/bin:/Users/relmore/bin:$PATH
+export PATH=/Users/relmore/Side_Projects/julia/:/usr/local/cuda/bin:/Library/PostgreSQL/9.0/bin:/Users/relmore/bin:/usr/local/Cellar/ruby/2.1.1_1/bin:$HOME/.rvm/bin:$PATH
 # Finished adapting your PATH environment variable for use with MacPorts.
 
 ##
@@ -87,3 +87,5 @@ export PATH=/Users/relmore/Side_Projects/julia/:/usr/local/cuda/bin:/Library/Pos
 PATH="/Library/Frameworks/Python.framework/Versions/2.7/bin:${PATH}"
 export PATH
 export PATH=/usr/local/bin:$PATH
+
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
