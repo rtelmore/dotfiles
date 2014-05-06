@@ -74,7 +74,7 @@ export SVN_EDITOR='vim'
 #export LD_LIBRARY_PATH=/usr/local/boost_1_44_0/stage/lib:$LD_LIBRARY_PATH
 #export DYLD_LIBRARY_PATH=/usr/local/cuda/lib:$DYLD_LIBRARY_PATH
 # MacPorts Installer addition on 2010-05-24_at_15:02:14: adding an appropriate PATH variable for use with MacPorts.
-export PATH=/Users/relmore/Side_Projects/julia/:/usr/local/cuda/bin:/Library/PostgreSQL/9.0/bin:/opt/local/bin:/opt/local/sbin:/Users/relmore/bin:$PATH
+export PATH=/Users/relmore/Side_Projects/julia/:/usr/local/cuda/bin:/Library/PostgreSQL/9.0/bin:/Users/relmore/bin:$PATH
 # Finished adapting your PATH environment variable for use with MacPorts.
 
 ##
