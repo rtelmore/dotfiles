@@ -38,7 +38,7 @@ set numberwidth=1	" Use 1 col + 1 space for numbers
 "colorscheme desert	" See .vim/colors/wombat
 
 """" R-plugin stuff
-let vimrplugin_screenplugin = 0
+"""" let vimrplugin_screenplugin = 0
 let vimrplugin_vimpager = "horizontal"
 let vimrplugin_indent_commented = 1
 let r_indent_ess_comments = 1
