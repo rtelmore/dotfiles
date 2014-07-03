@@ -1,8 +1,8 @@
 options(device = "quartz")
 options(stringsAsFactors=FALSE)
 options(papersize = "letter")
-library(ProjectTemplate)
-library(ggplot2)
+#library(ProjectTemplate)
+#library(ggplot2)
 .First <- function() {
   # library(XML)
   # library(plyr)

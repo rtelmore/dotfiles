@@ -47,8 +47,8 @@ alias go2ldrd-data='ssh relmore@dnpdb001.bigde.nrel.gov'
 alias go2nadi='ssh ryan@nadi.dyndns.org'
 alias go2bosco='psql83 -p 5432 -h bsm-data.nrel.gov -d bosco'
 alias amte='mate'
-alias ls='ls -G'
-alias sl='ls -G'
+alias ls='ls'
+alias sl='ls'
 alias rm='rm -i'
 alias cdp='cd ~/Projects/'
 alias cds='cd ~/Side_Projects/'
@@ -79,6 +79,8 @@ export SVN_EDITOR='vim'
 export PATH=/usr/local/cuda/bin:/Library/PostgreSQL/9.0/bin:/Users/relmore/bin:/usr/local/Cellar/ruby/2.1.1_1/bin:$HOME/.rvm/bin:$PATH
 # Finished adapting your PATH environment variable for use with MacPorts.
 
+# Module stuff
+export MODULEPATH=$MODULEPATH:/nopt/nrel/apps/modules/candidate/modulefiles
 ##
 
 
