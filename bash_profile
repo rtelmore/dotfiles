@@ -79,9 +79,6 @@ export SVN_EDITOR='vim'
 export PATH=/usr/local/cuda/bin:/Library/PostgreSQL/9.0/bin:/Users/relmore/bin:/usr/local/Cellar/ruby/2.1.1_1/bin:$HOME/.rvm/bin:$PATH
 # Finished adapting your PATH environment variable for use with MacPorts.
 
-# Module stuff
-export MODULEPATH=$MODULEPATH:/nopt/nrel/apps/modules/candidate/modulefiles
-##
 
 
 
