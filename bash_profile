@@ -81,7 +81,7 @@ export PATH=/usr/local/cuda/bin:/Library/PostgreSQL/9.0/bin:/Users/relmore/bin:/
 
 
 ## Modulefiles
-if [ $HOSTNAME = "^login" ]; then
+if [[ $HOSTNAME =~ ^login ]]; then
     export MODULEPATH=$MODULEPATH:/nopt/nrel/apps/modules/candidate/modulefiles
 fi
 
