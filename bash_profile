@@ -80,7 +80,10 @@ export PATH=/usr/local/cuda/bin:/Library/PostgreSQL/9.0/bin:/Users/relmore/bin:/
 # Finished adapting your PATH environment variable for use with MacPorts.
 
 
-
+## Modulefiles
+if [ $HOSTNAME = "^login" ]; then
+    export MODULEPATH=$MODULEPATH:/nopt/nrel/apps/modules/candidate/modulefiles
+fi
 
 
 # Setting PATH for Python 2.7
