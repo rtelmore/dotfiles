@@ -3,11 +3,11 @@ function parse_git_branch {
   git branch --no-color 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/'
 }
 
-#if [ ${HOSTNAME%%.*} = "stc-24795s" ]; then
-#  export COMP_NAME="stc-24795s"
-#else
-#  export COMP_NAME="BIRD-$HOSTNAME"
-#fi
+if [ ${HOSTNAME} = "Ryans-MacBook-Pro.local" ]; then
+ export COMP_NAME="DU-Laptop"
+else
+ export COMP_NAME="$HOSTNAME"
+fi
 
 function proml {
   local        BLUE="\[\033[0;34m\]"
@@ -17,7 +17,6 @@ function proml {
   local LIGHT_GREEN="\[\033[1;32m\]"
   local       WHITE="\[\033[1;37m\]"
   local  LIGHT_GRAY="\[\033[0;37m\]"
-  local   COMP_NAME="${HOSTNAME%%-*}"
   case $TERM in
     xterm*)
 	TITLEBAR='\[\033]0;\u@\h:\w\007\]'
@@ -34,6 +33,7 @@ PS4='+ '
 }
 proml
 ## $BLUE[$RED\u@\h:\w$GREEN\$(parse_git_branch)$BLUE]\
+## local   COMP_NAME="${HOSTNAME%%-*}"
 ## End git stuff
 
 export CLICOLOR=1
