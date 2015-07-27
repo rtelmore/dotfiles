@@ -2,7 +2,7 @@
 set nocompatible
 filetype off
 
-set rtp+=~/.vim/bundle/vundle
+set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#rc()
 
 Bundle 'gmarik/vundle'
@@ -19,16 +19,16 @@ let maplocalleader = ","
 let mapleader = ","
 
 set term=xterm-256color
-syntax on 
-filetype plugin indent on 
+syntax on
+filetype plugin indent on
 set encoding=utf-8
 
 
 """" Searching and Patterns
 "set ignorecase		" search is case insensitive
-"set smartcase		" search case sensitive if caps on 
+"set smartcase		" search case sensitive if caps on
 "set incsearch		" show best match so far
-"set hlsearch		" Highlight matches to the search 
+"set hlsearch		" Highlight matches to the search
 
 """" Display
 set scrolloff=3		" Keep 3 lines below and above the cursor
@@ -56,4 +56,3 @@ inoremap jk <ESC>
 let g:Tex_ViewRule_pdf = 'open -a Preview'
 let g:Tex_TreatMacViewerAsUNIX = 1
 let g:Tex_ExecuteUNIXViewerInForeground = 1
-
