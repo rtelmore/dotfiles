@@ -3,7 +3,8 @@ function parse_git_branch {
   git branch --no-color 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/'
 }
 
-if [ ${HOSTNAME} = "Ryans-MacBook-Pro.local" ]; then
+if [[ ${HOSTNAME} == Ryans* ]] || [[ ${HOSTNAME} == *du.edu ]]; 
+then 
  export COMP_NAME="DU-Laptop"
 else
  export COMP_NAME="$HOSTNAME"
