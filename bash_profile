@@ -41,11 +41,12 @@ export CLICOLOR=1
 alias ls='ls'
 alias sl='ls'
 alias rm='rm -i'
-alias cdp='cd ~/Projects/'
-alias cds='cd ~/Side_Projects/'
+alias cdr='cd ~/research/'
+alias cds='cd ~/sports-stats/'
 alias lsmore='ls -la | more'
 alias myps='ps -u relmore'
 alias go2bird='ssh -Y peregrine'
 alias myq='showq -u relmore'
+alias go2du-hpc='ssh -Y relmore4@nsm-hpc.nsm.du.edu'
 
 export LSCOLORS="Dxfxcxdxbxegedabagacad"
