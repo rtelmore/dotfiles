@@ -27,6 +27,6 @@
       .ls.objects(..., order.by="Size", decreasing=TRUE, head=TRUE, n=n)
 }
 
-.h <- head
-.s <- str
+.h <- utils::head
+.s <- utils::str
 
