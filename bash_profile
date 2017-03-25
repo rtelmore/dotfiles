@@ -54,4 +54,4 @@ alias go2du-hpc='ssh -Y relmore4@nsm-hpc.nsm.du.edu'
 export LSCOLORS="Dxfxcxdxbxegedabagacad"
 
 PATH=$PATH:~/bin
-`
+
