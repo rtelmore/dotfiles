@@ -50,6 +50,7 @@ alias myps='ps -u relmore'
 alias go2bird='ssh -Y peregrine'
 alias myq='showq -u relmore'
 alias go2du-hpc='ssh -Y relmore4@nsm-hpc.nsm.du.edu'
+alias go2rstudio='ssh -Y ryan.elmore@Rstudio-poc.du.edu'
 
 export LSCOLORS="Dxfxcxdxbxegedabagacad"
 
