@@ -3,8 +3,8 @@ function parse_git_branch {
   git branch --no-color 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/'
 }
 
-if [[ ${HOSTNAME} == Ryans* ]] || [[ ${HOSTNAME} == *du.edu ]]; 
-then 
+if [[ ${HOSTNAME} == Ryans* ]] || [[ ${HOSTNAME} == *du.edu ]];
+then
  export COMP_NAME="DU-Laptop"
 else
  export COMP_NAME="$HOSTNAME"
@@ -51,8 +51,8 @@ alias go2bird='ssh -Y peregrine'
 alias myq='showq -u relmore'
 alias go2du-hpc='ssh -Y relmore4@nsm-hpc.nsm.du.edu'
 alias go2rstudio='ssh -Y ryan.elmore@Rstudio-poc.du.edu'
+alias cdic='cd ~/Library/Mobile\ Documents/com~apple~CloudDocs/'
 
 export LSCOLORS="Dxfxcxdxbxegedabagacad"
 
 PATH=$PATH:~/bin
-
