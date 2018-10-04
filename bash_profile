@@ -50,9 +50,12 @@ alias myps='ps -u relmore'
 alias go2bird='ssh -Y peregrine'
 alias myq='showq -u relmore'
 alias go2du-hpc='ssh -Y relmore4@nsm-hpc.nsm.du.edu'
-alias go2rstudio='ssh -Y ryan.elmore@Rstudio-poc.du.edu'
+alias go2rstudio='ssh -Y ryan.elmore@Rstudio.du.edu'
 alias cdic='cd ~/Library/Mobile\ Documents/com~apple~CloudDocs/'
 
 export LSCOLORS="Dxfxcxdxbxegedabagacad"
 
 PATH=$PATH:~/bin
+
+# added by Anaconda3 5.1.0 installer
+export PATH="/Users/Ryan/anaconda3/bin:$PATH"
